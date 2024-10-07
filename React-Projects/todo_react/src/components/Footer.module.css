@@ -1,0 +1,52 @@
+.containerFooter{
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center ;
+  background-color: #282c34 ;
+  color: #61dafb;
+}
+
+.footerContent{
+  display: flex;
+  align-items: center;
+  justify-content: space-between ;
+  width: 100%;
+  max-width: 100%;
+}
+
+.sobreNos,
+.contato,
+.redes{
+  display: flex;
+  flex-direction: column;
+  margin: 0 100px;
+  flex-wrap: wrap;
+}
+
+.sobreNos h4,
+.contato h4,
+.redes h4{
+  margin-bottom: 1em;
+}
+
+.sobreNos a,
+.contato a,
+.redes a{
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 0.5em;
+}
+
+.sobreNos a:hover,
+.contato a:hover,
+.redes a:hover{
+  opacity: 75%;
+  color: gold;
+}
+
+.footer span{
+  font-weight: bold;
+  color: #61dafb;
+}
